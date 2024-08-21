@@ -5,7 +5,7 @@ import {
   DECREASE,
   LOADING,
   DISPLAY_ITEMS,
-} from "../../final/src/actions";
+} from "./actions";
 
 const reducer = (state, action) => {
   if (action.type === CLEAR_CART) {
